@@ -1,0 +1,6 @@
+arch = [
+  "nvidia-open-dkms",
+  "nvidia-settings",
+  "nvidia-utils",
+  "libva"
+]

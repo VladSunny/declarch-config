@@ -1,0 +1,10 @@
+arch = [
+  "firefox",
+  "google-chrome",
+  "kitty",
+  "nemo",
+  "telegram-desktop",
+  "visual-studio-code-bin",
+  "wl-clipboard",
+  "throne-bin"
+]

@@ -1,0 +1,6 @@
+arch = [
+  "btop",
+  "fastfetch",
+  "htop",
+  "lazygit"
+]

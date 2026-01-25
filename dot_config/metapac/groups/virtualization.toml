@@ -1,0 +1,12 @@
+arch = [
+  "qemu-full",
+  "virt-manager",
+  "libvirt",
+  "edk2-ovmf",
+  "dnsmasq",
+  "iptables-nft",
+  "virt-viewer",
+  "bridge-utils",
+  "swtpm",
+  "libosinfo"
+]

@@ -1,4 +1,10 @@
 enabled_backends = ["arch"]
 
+hostname_groups_enabled = true
+
 [arch]
 package_manager = "yay"
+
+[hostname_groups]
+"declarch" = ["base", "cli", "gui", "hyprland", "nvidia", "virtualization"]
+"declarch-laptop"  = ["base", "cli", "gui", "hyprland"]
