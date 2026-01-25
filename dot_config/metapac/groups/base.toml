@@ -11,6 +11,11 @@ arch = [
   # Essential tools
   "sudo",
   "git",
+
+  # Shell
+  "fish",
+  "fisher",
+  "starship",
   
   # Package management
   "yay",
