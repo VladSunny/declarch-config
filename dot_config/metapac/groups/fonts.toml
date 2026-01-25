@@ -7,7 +7,6 @@ arch = [
   "noto-fonts",              # Google Noto – excellent coverage, very complete
   "noto-fonts-emoji",        # Colored emojis (Google style, good quality)
   "ttf-dejavu",              # Classic, very readable fallback
-  "ttf-liberation",          # Good Helvetica / Times / Courier replacement
 
   # ── Popular beautiful monospace / programming fonts ───────────────────────
   "ttf-jetbrains-mono",      # Clean, modern, ligatures (very popular 2025/26)

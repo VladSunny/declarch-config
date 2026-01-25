@@ -3,6 +3,9 @@ arch = [
   "nano",
   "vim",
 
+  # Cloud
+  "yandex-disk",
+
   "btop",
   "fastfetch",
   "htop",

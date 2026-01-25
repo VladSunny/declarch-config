@@ -28,6 +28,14 @@ arch = [
   # File system management
   "metapac",
   "chezmoi",
+
+  # Compressing
+  "file-roller",
+  "nemo-fileroller",
+  "zip",
+  "unzip",
+  "xz",
+  "tar",
   
   # Audio (Pipewire)
   "pipewire",
