@@ -9,7 +9,7 @@ makepkg -si
 
 yay -S metapac
 
-chezmoi init --apply git@github.com:YOUR_USERNAME/arch-dotfiles.git
+chezmoi init --apply https://github.com/VladSunny/declarch-config.git
 
 metapac sync
 ```
