@@ -1,35 +1,55 @@
 arch = [
+  # Base system
   "base",
   "base-devel",
-  "chezmoi",
-  "efibootmgr",
-  "git",
-  "grub",
   "linux",
   "linux-firmware",
   "linux-headers",
-  "metapac",
-  "networkmanager",
-  "sof-firmware",
+  "efibootmgr",
+  "grub",
+  
+  # Essential tools
+  "sudo",
+  "git",
+  
+  # Package management
   "yay",
   "yay-debug",
-  "nano",
-  "vim",
-  "bluez",
-  "bluez-utils",
-  "cups",
-  "cups-pk-helper",
-  "gst-plugin-pipewire",
-  "intel-ucode",
-  "libpulse",
-  "pacdef-bin",
+  
+  # Network
+  "networkmanager",
+  "wpa_supplicant",
+  
+  # File system management
+  "metapac",
+  "chezmoi",
+  
+  # Audio (Pipewire)
   "pipewire",
   "pipewire-alsa",
-  "pipewire-jack",
   "pipewire-pulse",
-  "sudo",
-  "system-config-printer",
+  "pipewire-jack",
   "wireplumber",
-  "wpa_supplicant",
+  "libpulse",
+  "gst-plugin-pipewire",
+  
+  # Bluetooth
+  "bluez",
+  "bluez-utils",
+  
+  # Printing
+  "cups",
+  "cups-pk-helper",
+  "system-config-printer",
+  
+  # Text editors
+  "nano",
+  "vim",
+  
+  # Firmware
+  "intel-ucode",
+  "sof-firmware",
+  
+  # Performance
   "zram-generator",
 ]
