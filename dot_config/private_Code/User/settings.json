@@ -1,0 +1,7 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "editor.fontFamily": "\"JetBrainsMono Nerd Font\", monospace"
+}
