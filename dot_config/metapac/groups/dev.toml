@@ -1,0 +1,11 @@
+arch = [
+  # Python
+  "uv",
+
+  # C++
+  "gcc",
+  "gdb",
+  "valgrind",
+  "clang",
+  "cmake"
+]

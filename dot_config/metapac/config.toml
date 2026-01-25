@@ -6,5 +6,5 @@ hostname_groups_enabled = true
 package_manager = "yay"
 
 [hostname_groups]
-"declarch" = ["base", "fonts", "cli", "gui", "hyprland", "nvidia", "virtualization", "themes"]
-"declarch-laptop"  = ["base", "fonts", "cli", "gui", "hyprland", "themes"]
+"declarch" = ["base", "fonts", "cli", "gui", "hyprland", "nvidia", "dev", "virtualization", "themes"]
+"declarch-laptop"  = ["base", "fonts", "cli", "gui", "hyprland", "dev", "themes"]
