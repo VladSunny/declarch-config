@@ -30,8 +30,6 @@ arch = [
   "chezmoi",
 
   # Compressing
-  "file-roller",
-  "nemo-fileroller",
   "zip",
   "unzip",
   "xz",
