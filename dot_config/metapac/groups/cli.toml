@@ -1,6 +1,12 @@
 arch = [
+  # Text editors
+  "nano",
+  "vim",
+
   "btop",
   "fastfetch",
   "htop",
-  "lazygit"
+  "lazygit",
+  "bat",
+  "eza"
 ]

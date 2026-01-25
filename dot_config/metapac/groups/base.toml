@@ -47,10 +47,6 @@ arch = [
   "cups-pk-helper",
   "system-config-printer",
   
-  # Text editors
-  "nano",
-  "vim",
-  
   # Firmware
   "intel-ucode",
   "sof-firmware",
