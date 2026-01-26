@@ -3,5 +3,6 @@
     "git.enableSmartCommit": true,
     "git.autofetch": true,
     "workbench.colorTheme": "Tomorrow Night Blue",
-    "editor.fontFamily": "\"JetBrainsMono Nerd Font\", monospace"
+    "editor.fontFamily": "\"JetBrainsMono Nerd Font\", monospace",
+    "terminal.integrated.enableMultiLinePasteWarning": "never"
 }
