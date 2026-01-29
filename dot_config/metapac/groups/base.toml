@@ -1,62 +1,51 @@
-arch = [
-  # Base system
-  "base",
-  "base-devel",
-  "linux",
-  "linux-firmware",
-  "linux-headers",
-  "efibootmgr",
-  "grub",
-  
-  # Essential tools
-  "sudo",
-  "git",
-
-  # Shell
-  "fish",
-  "fisher",
-  "starship",
-  
-  # Package management
-  "yay",
-  "yay-debug",
-  
-  # Network
-  "networkmanager",
-  "wpa_supplicant",
-  
-  # File system management
-  "metapac",
-  "chezmoi",
-
-  # Compressing
-  "zip",
-  "unzip",
-  "xz",
-  "tar",
-  
-  # Audio (Pipewire)
-  "pipewire",
-  "pipewire-alsa",
-  "pipewire-pulse",
-  "pipewire-jack",
-  "wireplumber",
-  "libpulse",
-  "gst-plugin-pipewire",
-  
-  # Bluetooth
-  "bluez",
-  "bluez-utils",
-  
-  # Printing
-  "cups",
-  "cups-pk-helper",
-  "system-config-printer",
-  
-  # Firmware
-  "intel-ucode",
-  "sof-firmware",
-  
-  # Performance
-  "zram-generator",
-]
+arch = {packages = [
+    # Base system
+    "base",
+    "base-devel",
+    "linux",
+    "linux-firmware",
+    "linux-headers",
+    "efibootmgr",
+    "grub",
+    # Essential tools
+    "sudo",
+    "git",
+    # Shell
+    "fish",
+    "fisher",
+    "starship",
+    # Package management
+    "yay",
+    "yay-debug",
+    # Network
+    "networkmanager",
+    "wpa_supplicant",
+    # File system management
+    "metapac",
+    "chezmoi",
+    # Compressing
+    "zip",
+    "unzip",
+    "xz",
+    "tar",
+    # Audio (Pipewire)
+    "pipewire",
+    "pipewire-alsa",
+    "pipewire-pulse",
+    "pipewire-jack",
+    "wireplumber",
+    "libpulse",
+    "gst-plugin-pipewire",
+    # Bluetooth
+    "bluez",
+    "bluez-utils",
+    # Printing
+    "cups",
+    "cups-pk-helper",
+    "system-config-printer",
+    # Firmware
+    "intel-ucode",
+    "sof-firmware",
+    # Performance
+    "zram-generator",
+]}

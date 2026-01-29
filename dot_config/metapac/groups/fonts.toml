@@ -1,29 +1,12 @@
-# fonts.toml ────────────────────────────────────────────────────────────────
-# Essential fonts for good coverage + modern terminal + emoji support
-# Most are from official repos; some popular ones from AUR via yay
-# ----------------------------------------------------------------------------
-arch = [
-  # ── Core system fonts (fallback / coverage) ───────────────────────────────
-  "noto-fonts",              # Google Noto – excellent coverage, very complete
-  "noto-fonts-emoji",        # Colored emojis (Google style, good quality)
-  "ttf-dejavu",              # Classic, very readable fallback
+arch = {packages = [
+  "noto-fonts",
+  "noto-fonts-emoji",
+  "ttf-dejavu", 
 
-  # ── Popular beautiful monospace / programming fonts ───────────────────────
-  "ttf-jetbrains-mono",      # Clean, modern, ligatures (very popular 2025/26)
-  "ttf-fira-code",           # Programming ligatures, still loved
-  "ttf-hack",                # Very readable at small sizes
-  "ttf-iosevka",             # Extremely customizable, compact & beautiful
+  "ttf-jetbrains-mono",
+  "ttf-fira-code",
+  "ttf-hack",
+  "ttf-iosevka",
 
-  # ── Nerd Fonts (icons + glyphs for terminal, starship, waybar, nvim …) ────
-  # Pick 1–3 max — too many = slower fontconfig + bigger cache
-  # Most popular & recommended right now (2025/26):
-  "ttf-jetbrains-mono-nerd", # JetBrains Mono + icons (top choice for many)
-  # "ttf-hack-nerd",         # Alternative if you prefer Hack base
-  # "ttf-fira-code-nerd",    # If you love Fira Code ligatures + icons
-  # "ttf-meslo-nerd",        # Meslo LG – another clean & popular option
-
-  # ── Extra useful emoji / symbol fonts (optional but nice) ─────────────────
-  # "ttf-twemoji",           # Twitter / X style emojis (AUR) – alternative style
-  # "ttf-apple-emoji",       # Apple Color Emoji (AUR) – if you prefer iOS look
-  # "ttf-joypixels",         # Another high-quality color emoji set (AUR)
-]
+  "ttf-jetbrains-mono-nerd",
+]}
