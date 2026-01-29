@@ -1,4 +1,4 @@
-arch = [
+arch = {packages = [
   "firefox",
   "google-chrome",
   "kitty",
@@ -7,15 +7,9 @@ arch = [
   "file-roller",
   "nemo-fileroller",
 
-  # "dolphin",
-  # "thunar",
-  # "thunar-archive-plugin",
-  # "thunar-media-tags-plugin",
-  # "tumbler",
-
   "telegram-desktop",
   "visual-studio-code-bin",
   "wl-clipboard",
   "throne-bin",
   "obsidian"
-]
+]}

@@ -1,4 +1,4 @@
-arch = [
+arch = {packages = [
   "nvidia-open-dkms",
   "nvidia-settings",
   "nvidia-utils",
@@ -6,4 +6,4 @@ arch = [
   "lib32-nvidia-utils",
   "cuda",
   "cudnn",
-]
+]}

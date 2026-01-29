@@ -1,4 +1,4 @@
-arch = [
+arch = {packages = [
   "qemu-full",
   "virt-manager",
   "libvirt",
@@ -9,4 +9,4 @@ arch = [
   "bridge-utils",
   "swtpm",
   "libosinfo"
-]
+]}
