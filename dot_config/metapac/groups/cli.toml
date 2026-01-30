@@ -1,4 +1,5 @@
-arch = {packages = [
+[arch]
+packages = [
   # Text editors
   "nano",
   "vim",
@@ -12,4 +13,4 @@ arch = {packages = [
   "lazygit",
   "bat",
   "eza"
-]}
+]

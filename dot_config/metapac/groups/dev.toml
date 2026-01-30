@@ -1,4 +1,5 @@
-arch = {packages = [
+[arch]
+packages = [
   # Python
   "uv",
 
@@ -8,4 +9,4 @@ arch = {packages = [
   "valgrind",
   "clang",
   "cmake"
-]}
+]

@@ -1,4 +1,5 @@
-arch = {packages = [
+[arch]
+packages = [
   "firefox",
   "google-chrome",
   "kitty",
@@ -10,9 +11,11 @@ arch = {packages = [
   "pwvucontrol",
   "blueman",
 
+  "zoom",
+
   "telegram-desktop",
   "visual-studio-code-bin",
   "wl-clipboard",
   "throne-bin",
   "obsidian"
-]}
+]

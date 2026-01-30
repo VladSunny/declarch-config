@@ -1,3 +1,4 @@
-arch = {packages = [
+[arch]
+packages = [
   "adw-gtk-theme-git"
-]}
+]
