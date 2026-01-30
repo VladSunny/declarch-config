@@ -1,7 +1,6 @@
 arch = {packages = [
   "hyprland",
-  # "hyprtoolkit",
-  # "hyprlauncher",
+  "waybar",
   "wofi",
   "dunst",
   "grim",

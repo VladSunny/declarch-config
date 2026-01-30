@@ -7,6 +7,9 @@ arch = {packages = [
   "file-roller",
   "nemo-fileroller",
 
+  "pwvucontrol",
+  "blueman",
+
   "telegram-desktop",
   "visual-studio-code-bin",
   "wl-clipboard",
