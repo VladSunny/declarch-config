@@ -8,5 +8,16 @@ packages = [
   "gdb",
   "valgrind",
   "clang",
-  "cmake"
+  "cmake",
+
+  # Node js
+  "mise"
 ]
+
+[mise]
+packages = [{name = "node", options = { version = "lts" }}]
+
+# [npm]
+# packages = [
+#   "yarn",
+# ]
