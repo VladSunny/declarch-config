@@ -1,4 +1,5 @@
-arch = {packages = [
+[arch]
+packages = [
   # Python
   "uv",
 
@@ -7,5 +8,21 @@ arch = {packages = [
   "gdb",
   "valgrind",
   "clang",
-  "cmake"
-]}
+  "cmake",
+
+  # Node js
+  "mise",
+
+  # Docker
+  "docker",
+  "docker-compose",
+  "lazydocker",
+]
+
+[mise]
+packages = [{name = "node", options = { version = "lts" }}]
+
+# [npm]
+# packages = [
+#   "yarn",
+# ]

@@ -1,7 +1,8 @@
-arch = {packages = [
+[arch]
+packages = [
   "hyprland",
-  "hyprtoolkit",
-  "hyprlauncher",
+  "waybar",
+  "wofi",
   "dunst",
   "grim",
   "slurp",
@@ -9,4 +10,4 @@ arch = {packages = [
   "xdg-desktop-portal-hyprland",
   "qt5-wayland",
   "qt6-wayland"
-]}
+]
