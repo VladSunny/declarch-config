@@ -16,7 +16,6 @@ packages = [
   # Docker
   "docker",
   "docker-compose",
-  "lazydocker",
 ]
 
 [mise]

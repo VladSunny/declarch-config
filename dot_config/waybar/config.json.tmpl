@@ -17,6 +17,9 @@
         "tray",
         "network",
         "bluetooth",
+        {{- if eq .chezmoi.hostname "declarch-laptop" }}
+        "battery",
+        {{- end }}
         "cpu",
         "memory"
     ],
@@ -127,6 +130,23 @@
         "on-click": "blueman-manager",
         "format-no-controller": ""
     },
+    {{- if eq .chezmoi.hostname "declarch-laptop" }}
+    "battery": {
+        "bat": "BAT0",              // чаще всего BAT0 или BAT1 — проверь ls /sys/class/power_supply/
+        "adapter": "ADP0",            // или ADP1, ACAD и т.п.
+        "interval": 10,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+        "format-charging": "{capacity}% 󰂄",
+        "format-plugged": "{capacity}% 󰚥",
+        "format-full": "{capacity}% 󰁹",
+        "tooltip-format": "{timeTo} left  •  {capacity}%  •  {health}% health"
+    },
+    {{- end }}
     "tray": {
         "icon-size": 18,
         "spacing": 8
