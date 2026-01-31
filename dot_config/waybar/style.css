@@ -50,6 +50,7 @@ tooltip label {
 #memory,
 #network,
 #bluetooth,
+#battery,
 #idle_inhibitor,
 #tray {
     background: linear-gradient(135deg, rgba(30, 30, 46, 0.9), rgba(49, 50, 68, 0.9));
@@ -176,6 +177,33 @@ tooltip label {
     border-color: rgba(108, 112, 134, 0.3);
 }
 
+/* Battary */
+#battery {
+    color: #a6e3a1;
+    border-color: rgba(166, 227, 161, 0.4);
+    padding: 6px 12px;
+    margin: 0 4px;
+}
+
+#battery.warning {
+    color: #f9e2af;
+    border-color: rgba(249, 226, 175, 0.6);
+    background: rgba(249, 226, 175, 0.08);
+}
+
+#battery.critical {
+    color: #f38ba8;
+    border-color: rgba(243, 139, 168, 0.7);
+    background: rgba(243, 139, 168, 0.12);
+    animation: critical-pulse 2s infinite;
+}
+
+#battery.charging {
+    color: #89dceb;
+    border-color: rgba(137, 220, 235, 0.6);
+    background: rgba(137, 220, 235, 0.08);
+}
+
 /* Idle inhibitor */
 #idle_inhibitor {
     color: #f9e2af;
@@ -212,6 +240,7 @@ tooltip label {
 #memory:hover,
 #network:hover,
 #bluetooth:hover,
+#battery:hover,
 #idle_inhibitor:hover,
 #tray:hover,
 #custom-weather:hover {
