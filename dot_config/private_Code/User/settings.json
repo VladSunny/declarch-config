@@ -4,5 +4,11 @@
     "git.autofetch": true,
     "workbench.colorTheme": "Tomorrow Night Blue",
     "editor.fontFamily": "\"JetBrainsMono Nerd Font\", monospace",
-    "terminal.integrated.enableMultiLinePasteWarning": "never"
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "git.confirmSync": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "explorer.confirmPasteNative": false,
+    "notebook.lineNumbers": "on"
 }
