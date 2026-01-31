@@ -1,5 +1,0 @@
-{{- /* chezmoi:modify-template */ -}}
-
-{{- $current := .chezmoi.stdin | fromJson -}}
-
-{{- merge $current (dict "theme" "QDarkStyle") | toPrettyJson -}}
