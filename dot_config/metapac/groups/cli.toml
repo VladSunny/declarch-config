@@ -7,10 +7,15 @@ packages = [
   # Cloud
   "yandex-disk",
 
+  # Fun
+  "cmatrix",
+
   "btop",
   "fastfetch",
   "htop",
-  "lazygit",
   "bat",
-  "eza"
+  "eza",
+
+  "lazygit",
+  "lazydocker"
 ]
