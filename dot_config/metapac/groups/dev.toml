@@ -11,7 +11,12 @@ packages = [
   "cmake",
 
   # Node js
-  "mise"
+  "mise",
+
+  # Docker
+  "docker",
+  "docker-compose",
+  "lazydocker",
 ]
 
 [mise]
