@@ -8,27 +8,35 @@ packages = [
     "linux-headers",
     "efibootmgr",
     "grub",
+    "power-profiles-daemon",
+
     # Essential tools
     "sudo",
     "git",
+    
     # Shell
     "fish",
     "fisher",
     "starship",
+    
     # Package management
     "yay",
     "yay-debug",
+    
     # Network
     "networkmanager",
     "wpa_supplicant",
+    
     # File system management
     "metapac",
     "chezmoi",
+    
     # Compressing
     "zip",
     "unzip",
     "xz",
     "tar",
+    
     # Audio (Pipewire)
     "pipewire",
     "pipewire-alsa",
@@ -37,16 +45,20 @@ packages = [
     "wireplumber",
     "libpulse",
     "gst-plugin-pipewire",
+    
     # Bluetooth
     "bluez",
     "bluez-utils",
+    
     # Printing
     "cups",
     "cups-pk-helper",
     "system-config-printer",
+    
     # Firmware
     "intel-ucode",
     "sof-firmware",
+    
     # Performance
     "zram-generator",
 ]
