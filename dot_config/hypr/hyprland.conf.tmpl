@@ -22,14 +22,21 @@
 ################
 
 # See https://wiki.hypr.land/Configuring/Monitors/
+
+{{ if eq .chezmoi.hostname "declarch" }}
+
 monitor=DP-3,preferred,3120x0,1
 monitor=DP-2,preffered,1200x0,1
 monitor=DP-1,preffered,0x-310,1,transform,1
+workspace=1,monitor:DP-2
+workspace=3,monitor:DP-1
+workspace=2,monitor:DP-3
 
-workspace = 1, monitor:DP-2
-workspace = 3, monitor:DP-1
-workspace = 2, monitor:DP-3
+{{ else }}
 
+monitor=,preffered,auto,1
+
+{{ end }}
 
 ###################
 ### MY PROGRAMS ###
