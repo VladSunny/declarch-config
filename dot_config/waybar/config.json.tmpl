@@ -17,9 +17,9 @@
         "tray",
         "network",
         "bluetooth",
-        {{- if eq .chezmoi.hostname "declarch-laptop" }}
+        {{ if eq .chezmoi.hostname "declarch-laptop" }}
         "battery",
-        {{- end }}
+        {{ end }}
         "cpu",
         "memory"
     ],
@@ -43,11 +43,17 @@
             "active": "󱂬",
             "default": "󰊠"
         },
+        {{ if eq .chezmoi.hostname "declarch"}}
         "persistent-workspaces": {
             "1": ["DP-2"],
             "2": ["DP-1"],
             "3": ["DP-3"]
         }
+        {{ else }}
+        "persistent-workspaces": {
+            "1": ["eDP-1"],
+        }
+        {{ end }}
     },
     "hyprland/window": {
         "format": "{}",
