@@ -1,0 +1,7 @@
+[arch]
+packages = [
+    "steam",
+    "lutris",
+    "wine-staging",
+    "winetricks"
+]

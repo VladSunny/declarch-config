@@ -7,4 +7,4 @@ package_manager = "yay"
 
 [hostname_groups]
 "declarch" = ["base", "fonts", "cli", "gui", "hyprland", "nvidia", "dev", "virtualization", "themes"]
-"declarch-laptop"  = ["base", "fonts", "cli", "gui", "hyprland", "intel-graphics", "dev", "themes"]
+"declarch-laptop"  = ["base", "fonts", "cli", "gui", "hyprland", "intel-graphics", "dev", "themes", "gaming"]
