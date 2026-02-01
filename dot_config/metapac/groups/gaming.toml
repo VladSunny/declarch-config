@@ -3,5 +3,11 @@ packages = [
     "steam",
     "lutris",
     "wine-staging",
-    "winetricks"
+    "winetricks",
+    "gamemode",
+    "lib32-gamemode",
+    "mangohud",
+    "lib32-mangohud",
+    # "jre17-openjdk",
+    "jdk17-openjdk"
 ]
