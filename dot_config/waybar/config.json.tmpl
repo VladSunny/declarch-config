@@ -17,9 +17,10 @@
         "tray",
         "network",
         "bluetooth",
-        {{- if eq .chezmoi.hostname "declarch-laptop" }}
+        {{ if eq .chezmoi.hostname "declarch-laptop" }}
         "battery",
-        {{- end }}
+        {{ end }}
+        "wireplumber",
         "cpu",
         "memory"
     ],
@@ -43,11 +44,17 @@
             "active": "󱂬",
             "default": "󰊠"
         },
+        {{ if eq .chezmoi.hostname "declarch"}}
         "persistent-workspaces": {
             "1": ["DP-2"],
             "2": ["DP-1"],
             "3": ["DP-3"]
         }
+        {{ else }}
+        "persistent-workspaces": {
+            "1": ["eDP-1"],
+        }
+        {{ end }}
     },
     "hyprland/window": {
         "format": "{}",
@@ -147,6 +154,22 @@
         "tooltip-format": "{timeTo} left  •  {capacity}%  •  {health}% health"
     },
     {{- end }}
+    "wireplumber": {
+        "format": "{volume}% {icon}",
+        "format-muted": "󰝟 Muted",
+        "format-icons": ["󰕿", "󰖀", "󰕾"],
+        "scroll-step": 5,
+        "max-volume": 100,
+        "tooltip": true,
+        "tooltip-format": "{node_name}\nVolume: {volume}%",
+        "on-click": "pwvucontrol",
+        "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "on-click-middle": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 100%",
+        "states": {
+            "warning": 80,
+            "critical": 95
+        }
+    },
     "tray": {
         "icon-size": 18,
         "spacing": 8
