@@ -14,6 +14,7 @@ packages = [
   "zoom",
 
   "telegram-desktop",
+  "webkit2gtk-4.1",
   "visual-studio-code-bin",
   "wl-clipboard",
   "throne-bin",
