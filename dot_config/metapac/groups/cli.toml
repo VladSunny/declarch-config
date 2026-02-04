@@ -9,6 +9,7 @@ packages = [
 
   # Fun
   "cmatrix",
+  "cava",
 
   "btop",
   "fastfetch",
