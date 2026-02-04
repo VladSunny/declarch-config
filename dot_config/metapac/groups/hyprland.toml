@@ -3,6 +3,7 @@ packages = [
   "hyprland",
   "waybar",
   "wofi",
+  "hyprlock",
   "dunst",
   "grim",
   "slurp",
