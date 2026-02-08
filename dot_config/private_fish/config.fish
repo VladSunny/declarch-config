@@ -1,3 +1,8 @@
+function fish_greeting
+    fastfetch --logo arch_small --structure title:os:packages:kernel:uptime:battery:memory:disk
+end
+
+
 if status is-interactive
     starship init fish | source
 end
