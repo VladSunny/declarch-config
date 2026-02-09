@@ -9,6 +9,7 @@ packages = [
     "efibootmgr",
     "grub",
     "power-profiles-daemon",
+    "xorg-xhost",
 
     # Essential tools
     "sudo",
