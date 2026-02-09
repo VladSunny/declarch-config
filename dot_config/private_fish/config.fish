@@ -1,5 +1,5 @@
 function fish_greeting
-    fastfetch --logo arch_small --structure title:os:packages:kernel:uptime:battery:memory:disk
+    fastfetch --logo arch_small --structure title:packages:kernel:uptime:battery:memory:disk
 end
 
 
