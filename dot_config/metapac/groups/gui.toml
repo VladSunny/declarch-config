@@ -18,5 +18,6 @@ packages = [
   "visual-studio-code-bin",
   "wl-clipboard",
   "throne-bin",
-  "obsidian"
+  "obsidian",
+  "obs-studio"
 ]
