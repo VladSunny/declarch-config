@@ -3,6 +3,12 @@ packages = [
   # Text editors
   "nano",
   "vim",
+  "neovim",
+
+  # LazyVim first important plugins
+  "tree-sitter-cli",
+  "ripgrep",
+  "fd",
 
   # Cloud
   "yandex-disk",
@@ -10,6 +16,7 @@ packages = [
   # Fun
   "cmatrix",
   "cava",
+  "pipes.sh",
 
   "btop",
   "fastfetch",
