@@ -6,6 +6,8 @@ packages = [
   # C++
   "gcc",
   "gdb",
+  # "codelldb",
+  "lldb",
   "valgrind",
   "clang",
   "cmake",
