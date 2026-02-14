@@ -8,5 +8,7 @@ packages = [
     "lib32-gamemode",
     "mangohud",
     "lib32-mangohud",
-    "jdk17-openjdk"
+    "jdk17-openjdk",
+    "jdk21-openjdk",
+    "jdk-openjdk"
 ]
