@@ -20,9 +20,9 @@ packages = [
   "docker-compose",
 
   # Remote access
-  "openssh",
-  "tailscale",
-  "firewalld"
+  # "openssh",
+  # "tailscale",
+  # "firewalld"
 ]
 
 [mise]
