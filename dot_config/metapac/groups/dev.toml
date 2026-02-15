@@ -18,6 +18,11 @@ packages = [
   # Docker
   "docker",
   "docker-compose",
+
+  # Remote access
+  "openssh",
+  "tailscale",
+  "firewalld"
 ]
 
 [mise]
