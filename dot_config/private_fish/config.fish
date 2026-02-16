@@ -24,6 +24,6 @@ end
 
 alias ls="exa --icons"
 alias ll="exa -la --icons"
-alias cat="bat"
+# alias cat="bat"
 alias ff="fastfetch"
 alias up="yay -Syu --devel --timeupdate && metapac sync"
