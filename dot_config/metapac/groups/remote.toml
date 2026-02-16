@@ -1,0 +1,7 @@
+[arch]
+packages = [
+  "openssh",
+  "tailscale",
+  "firewalld",
+  "fail2ban"
+]

@@ -6,6 +6,8 @@ packages = [
   # C++
   "gcc",
   "gdb",
+  # "codelldb",
+  "lldb",
   "valgrind",
   "clang",
   "cmake",
@@ -16,6 +18,11 @@ packages = [
   # Docker
   "docker",
   "docker-compose",
+
+  # Remote access
+  # "openssh",
+  # "tailscale",
+  # "firewalld"
 ]
 
 [mise]
