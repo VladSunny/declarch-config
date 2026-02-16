@@ -2,9 +2,16 @@ function fish_greeting
     fastfetch --logo arch_small --structure title:packages:kernel:uptime:battery:memory:disk
 end
 
-
 if status is-interactive
     starship init fish | source
+    
+    if test -z (pgrep ssh-agent)
+        eval (ssh-agent -c)
+        set -Ux SSH_AUTH_SOCK $SSH_AUTH_SOCK
+        set -Ux SSH_AGENT_PID $SSH_AGENT_PID
+    end
+
+    ssh-add ~/.ssh/id_ed25519 2>/dev/null 
 end
 
 if status is-login
