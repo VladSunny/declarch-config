@@ -1,0 +1,14 @@
+[arch]
+packages = [
+    "unityhub",
+    "blender",
+    {{ if eq .chezmoi.hostname "declarch" }}
+    "mono",
+    "sdl2",
+    "vulkan-icd-loader",
+    "lld",
+    "dotnet-sdk",
+    "dotnet-runtime",
+    "unreal-engine"
+    {{ end }}
+]
