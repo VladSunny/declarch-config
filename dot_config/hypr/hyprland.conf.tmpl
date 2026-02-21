@@ -57,6 +57,9 @@ $bar = ~/.local/bin/waybar-launcher.sh
 # Autostart necessary processes (like notifications daemons, status bars, etc.)
 # Or execute your favorite apps at launch like this:
 
+# env = XDG_RUNTIME_DIR,/run/user/$(id -u)
+exec-once = xhost +local:root
+
 exec-once = $bar
 exec-once = swww-daemon --format xrgb
 exec-once = swww img ~/Pictures/Wallpapers/hyprgirl.png  \
