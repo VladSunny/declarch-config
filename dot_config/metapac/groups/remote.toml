@@ -3,5 +3,8 @@ packages = [
   "openssh",
   "tailscale",
   "firewalld",
-  "fail2ban"
+  "fail2ban",
+
+  # Raspberry
+  "rpi-imager",
 ]

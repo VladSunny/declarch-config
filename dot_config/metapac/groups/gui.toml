@@ -8,6 +8,9 @@ packages = [
   "file-roller",
   "nemo-fileroller",
 
+  "vlc",
+  "vlc-plugins-all",
+
   "pwvucontrol",
   "blueman",
 
