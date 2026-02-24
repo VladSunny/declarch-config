@@ -3,6 +3,7 @@ packages = [
   "nvidia-open-dkms",
   "nvidia-settings",
   "nvidia-utils",
+  "nvidia-container-toolkit",
   "libva",
   "lib32-nvidia-utils",
   "cuda",
