@@ -37,16 +37,16 @@
     "logo": "",
     "apps": {
       "terminal": [
-        "foot"
+        "kitty"
       ],
       "audio": [
         "pavucontrol"
       ],
       "playback": [
-        "mpv"
+        "vlc"
       ],
       "explorer": [
-        "thunar"
+        "nemo"
       ]
     },
     "idle": {
