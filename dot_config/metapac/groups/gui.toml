@@ -3,6 +3,7 @@ packages = [
   "firefox",
   "google-chrome",
   "kitty",
+  "warp-terminal-bin",
 
   "nemo",
   "file-roller",
