@@ -1,0 +1,13 @@
+--bare
+-I
+/home/vladg00dman/.config/quickshell/caelestia/build/qml
+-I
+/home/vladg00dman/.config/quickshell/caelestia/build/qml/Caelestia/Services
+-I
+/home/vladg00dman/.config/quickshell/caelestia/build/qml
+-I
+/usr/lib/qt6/qml
+--resource
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Services/.qt/rcc/qmake_Caelestia_Services.qrc
+--json
+/home/vladg00dman/.config/quickshell/caelestia/build/caelestia-services_qmllint.json

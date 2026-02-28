@@ -1,0 +1,6 @@
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Services/caelestia-services_autogen/include/../EWIEGA46WW/moc_audiocollector.cpp.json
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Services/caelestia-services_autogen/include/../EWIEGA46WW/moc_audioprovider.cpp.json
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Services/caelestia-services_autogen/include/../EWIEGA46WW/moc_beattracker.cpp.json
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Services/caelestia-services_autogen/include/../EWIEGA46WW/moc_cavaprovider.cpp.json
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Services/caelestia-services_autogen/include/../EWIEGA46WW/moc_service.cpp.json
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Services/caelestia-services_autogen/include/../EWIEGA46WW/moc_serviceref.cpp.json

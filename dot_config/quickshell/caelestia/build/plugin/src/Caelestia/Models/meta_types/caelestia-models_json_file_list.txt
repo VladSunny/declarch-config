@@ -1,0 +1,1 @@
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Models/caelestia-models_autogen/include/../EWIEGA46WW/moc_filesystemmodel.cpp.json

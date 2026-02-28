@@ -1,0 +1,5 @@
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Internal/caelestia-internal_autogen/include/../EWIEGA46WW/moc_cachingimagemanager.cpp.json
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Internal/caelestia-internal_autogen/include/../EWIEGA46WW/moc_circularindicatormanager.cpp.json
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Internal/caelestia-internal_autogen/include/../EWIEGA46WW/moc_hyprdevices.cpp.json
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Internal/caelestia-internal_autogen/include/../EWIEGA46WW/moc_hyprextras.cpp.json
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Internal/caelestia-internal_autogen/include/../EWIEGA46WW/moc_logindmanager.cpp.json

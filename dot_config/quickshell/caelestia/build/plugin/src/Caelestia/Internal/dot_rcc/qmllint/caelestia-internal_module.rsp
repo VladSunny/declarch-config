@@ -1,0 +1,12 @@
+-I
+/home/vladg00dman/.config/quickshell/caelestia/build/qml
+-I
+/home/vladg00dman/.config/quickshell/caelestia/build/qml/Caelestia/Internal
+-I
+/home/vladg00dman/.config/quickshell/caelestia/build/qml
+-I
+/usr/lib/qt6/qml
+--resource
+/home/vladg00dman/.config/quickshell/caelestia/build/plugin/src/Caelestia/Internal/.qt/rcc/qmake_Caelestia_Internal.qrc
+--module
+Caelestia.Internal
