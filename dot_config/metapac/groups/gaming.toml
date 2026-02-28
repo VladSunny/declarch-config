@@ -1,7 +1,7 @@
 [arch]
 packages = [
     "steam",
-    "flatpack",
+    "flatpak",
     "lutris",
     "wine-staging",
     "winetricks",
