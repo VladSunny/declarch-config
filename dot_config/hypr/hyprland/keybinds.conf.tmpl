@@ -1,15 +1,33 @@
-# See https://wiki.hypr.land/Configuring/Keywords/
 $mainMod = SUPER
+exec = hyprctl dispatch submap global
+submap = global
 
-# Example binds, see https://wiki.hypr.land/Configuring/Binds/ for more
+# Launcher
+bindi = Super, R, global, caelestia:launcher
+bindin = Super, catchall, global, caelestia:launcherInterrupt
+bindin = Super, mouse:272, global, caelestia:launcherInterrupt
+bindin = Super, mouse:273, global, caelestia:launcherInterrupt
+bindin = Super, mouse:274, global, caelestia:launcherInterrupt
+bindin = Super, mouse:275, global, caelestia:launcherInterrupt
+bindin = Super, mouse:276, global, caelestia:launcherInterrupt
+bindin = Super, mouse:277, global, caelestia:launcherInterrupt
+bindin = Super, mouse_up, global, caelestia:launcherInterrupt
+bindin = Super, mouse_down, global, caelestia:launcherInterrupt
+
+# Misc
+bind = Ctrl+Alt, Delete, global, caelestia:session
+bindl = Ctrl+Alt, C, global, caelestia:clearNotifs
+bind = Super, K, global, caelestia:showall
+bind = Super, L, global, caelestia:lock
+
 bind = $mainMod, Q, exec, $terminal
 bind = $mainMod, X, killactive,
 bind = $mainMod SHIFT, M, exec, command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit
 bind = $mainMod, E, exec, $fileManager
 bind = $mainMod, V, togglefloating,
-bind = $mainMod, R, exec, $menu
+# bind = $mainMod, R, exec, $menu
 bind = $mainMod, C, exec, code ~/.local/share/chezmoi/
-bind = $mainMod, L, exec, hyprlock
+# bind = $mainMod, L, exec, hyprlock
 bind = $mainMod SHIFT, W, exec, $bar
 # bind = $mainMod, P, pseudo, # dwindle
 bind = $mainMod, P, exec, grim -g "$(slurp)" - | wl-copy
