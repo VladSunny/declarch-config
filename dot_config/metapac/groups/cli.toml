@@ -17,6 +17,9 @@ packages = [
   "cmatrix",
   "cava",
   "pipes.sh",
+  "toilet",
+  "vitetris",
+  "asciiquarium",
 
   "btop",
   "fastfetch",
