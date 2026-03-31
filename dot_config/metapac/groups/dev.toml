@@ -18,17 +18,7 @@ packages = [
   # Docker
   "docker",
   "docker-compose",
-
-  # Remote access
-  # "openssh",
-  # "tailscale",
-  # "firewalld"
 ]
 
 [mise]
 packages = [{name = "node", options = { version = "lts" }}]
-
-# [npm]
-# packages = [
-#   "yarn",
-# ]
