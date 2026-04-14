@@ -13,7 +13,7 @@ packages = [
   "cmake",
   
   # Dotnet
-  "dotnet-sdk",
+  # "dotnet-sdk",
 
   # Node js
   "mise",
